@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[foobar] (
+	[id] INT IDENTITY(1,1) PRIMARY KEY,
+	[name] NVARCHAR(100) NOT NULL,
+	[created_at] DATETIME DEFAULT GETDATE()
+);
+GO
